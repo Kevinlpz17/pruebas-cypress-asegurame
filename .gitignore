@@ -1,0 +1,13 @@
+node_modules/
+cypress/integration/1-getting-started
+cypress/integration/2-advanced-examples
+cypress/videos
+cypress/screenshots
+archivo.pdf
+archivo.json
+permisos.json
+infoPaciente.json
+pago.json
+perfil.json
+e2e/reports
+cypress.env.json

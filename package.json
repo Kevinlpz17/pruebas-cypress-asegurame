@@ -1,0 +1,24 @@
+{
+  "name": "medicatel-medicos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:medicos": "cypress run --browser chrome --spec cypress/e2e/CasosDePruebaSP/Caso1-Cita-para-usuarios-registrados-desde-Sistema-Admnistrativo.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "copy-to-clipboard": "^3.3.3",
+    "googleapis": "^118.0.0",
+    "moment": "^2.29.4",
+    "soft-assert": "^0.2.6"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^11.2.0",
+    "cypress-mochawesome-reporter": "^3.2.3"
+  }
+}
