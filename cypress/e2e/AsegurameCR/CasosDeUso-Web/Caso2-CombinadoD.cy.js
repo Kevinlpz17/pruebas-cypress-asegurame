@@ -1,7 +1,7 @@
 const { seguroDeducible } = require("../../../../data/asegurame/asegurameCR");
 const { randomBeetwenInteger } = require("../../../../helpers/random/fechasYNumeros");
-const administrativoCR = require("../../../pages/Asegurame/administrativoCR");
-const cotizador = require("../../../pages/Asegurame/cotizador");
+const administrativoCR = require("../../../pages/AsegurameCR/administrativoCR");
+const cotizador = require("../../../pages/AsegurameCR/cotizador");
 
 const correo = "admin@asegurame.cr";
 const password = "Asegurame_2023";

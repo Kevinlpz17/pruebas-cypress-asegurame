@@ -1,5 +1,5 @@
-const administrativoCR = require("../pages/Asegurame/administrativoCR.js");
-const cotizador = require("../pages/Asegurame/cotizador.js");
+const administrativoCR = require("../pages/AsegurameCR/administrativoCR.js");
+const cotizador = require("../pages/AsegurameCR/cotizador.js");
 const { seguroDeducible } = require("../../data/asegurame/asegurameCR.js");
 const {
   randomBeetwenInteger,
